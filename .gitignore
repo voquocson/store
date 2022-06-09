@@ -1,0 +1,39 @@
+# .gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/**/*
+
+### STS ###
+.apt_generated
+#.classpath
+.factorypath
+#.project
+# .settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+build*/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### CLASS FILE ###
+bin/**/*
+
+### LOG FILE ###
+logs/*
+/.settings/org.springframework.ide.eclipse.prefs
+/.settings/org.eclipse.ltk.core.refactoring.prefs
+.vscode/launch.json
+.settings/org.eclipse.buildship.core.prefs
+gradle/.DS_Store
+.DS_Store
